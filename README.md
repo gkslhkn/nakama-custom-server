@@ -17,9 +17,6 @@ Client maçta ne kadar uzun süre kalırsa o kadar çok puan kazanır.
 # talimatlar
 
 ```s
-npm install
-```
-
-```s
 docker compose up
 ```
+http://127.0.0.1:7351 ziyaret et. Kullanıcı adı:admin Şifre:password
