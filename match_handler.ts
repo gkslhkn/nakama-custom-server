@@ -91,7 +91,7 @@ let matchJoin: nkruntime.MatchJoinFunction<State> = function (
     state.presences[presence.userId] = presence;
     state.joinsInProgress--;
 
-    if (state.points[presence.userId] === null) {
+    if (isNaN(state.points[presence.userId])) {
       state.points[presence.userId] = 0;
     }
 
